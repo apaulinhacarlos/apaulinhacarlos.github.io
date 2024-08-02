@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import { Header, Container, GlobalStyle } from "./styles.tsx";
+import { Header, Container, GlobalStyle } from './styles';
 
 const App: React.FC = () => {
+  console.log('teste');
+  
   return (
     <>
       <GlobalStyle />
